@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Keywords, descripción y título SEO -->
+    <meta name="keywords" content="Ángeland, tienda, láminas, accesorios">
+    <meta name="description" content="Página de Mi Cuenta - Datos del usuario">
+    <title>Mi Cuenta - Ángeland</title>
+    <link rel="shortcut icon" href="../images/logo-dark.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Code+Pro:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- link de css de bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- link de mi css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/usuario.js" async></script>
+</head>
+
+<body id="about-page">
+
+    <!-- Cabecera con navegación -->
+    <header>
+        <div class="header__logo">
+            <a href="../index.html"><img class="logo" src="../images/logo-dark.png" alt="Logo Ángeland.es"></a>
+        </div>
+
+        <nav class="menu">
+            <input type="checkbox" id="active">
+            <label for="active" class="menu-btn"><span></span></label>
+            <label for="active" class="close"></label>
+            <div class="menu__menu-box">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="">Mi cuenta</a></li>
+                </ul>
+            </div> 
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="contenido">
+        <div class="about"> 
+            <h1>Mi Cuenta</h1>
+            <h2 class="about__item-intro">Bienvenido, </h2><h3>Nombre Apellido1 Apellido2</h3>
+            <article class="about__item">
+                <div class="about__item-image"><img src="../images/usuario/perfil.jpg" alt="Ángela"></div>
+                <div id="solicitarDatos">
+                    <input type="text" id = "nombre">
+                    <input type="number" id = "telefono">
+                    <input type="email" id="email">
+                    <input type="text" id="dni">
+                    <input type="password" id="clave">
+                </div>
+                <div class="about__item-description">
+                    <p><b>Email:</b> email@emailusuario.com </p>
+                    <p><b>Teléfono:</b> 988 123 456 </p>
+                    <p><b>Dirección:</b> C/ Evergreen Terras Nº374, Springfield.</p>
+                    <p><b>DNI:</b> 12345678A </p>
+                    <a href="#"><button>EDITAR DATOS DE USUARIO</button></a>
+                    <a href="#"><button>CAMBIAR CLAVE</button></a>
+                    <input type="password" id="clave2">
+                    <a href="#"><button class="pedidos">MIS PEDIDOS</button></a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <section class="enlaces-redes">
+            <a alt="Sígueme en Instagram" href="https://instagram.com/" target="_blank"><i class="bi-instagram icono-social"></i></a>
+            <a alt="Conecta conmigo en Linkedin" href="https://linkedin.com/" target="_blank"><i class="bi-linkedin icono-social"></i></a>
+            <a alt="Hablemos por whatsapp" href="https://whatsapp.com/" target="_blank"><i class="bi-whatsapp icono-social"></i></a>
+        </section>
+
+        <section class="bottom">
+            <div class="bottom__inner">
+                Copyright © Ángeland | <a alt="Sobre mí" href="./pages/about.html">About</a> | <a alt="Aviso Legal" href="https://google.es">Aviso Legal</a> | <a alt="https://google.es" href="https://google.es">Política de Cookies</a> | <a alt="Política de privacidad" href="https://google.es">Política de Privacidad</a>
+            </div>
+        </section>
+    </footer>
+
+</body>
+</html>
